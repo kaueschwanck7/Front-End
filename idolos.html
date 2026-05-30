@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ídolos – Grêmio FBPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Gremio_logo.svg" alt="Escudo do Grêmio" width="52" height="52" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+            aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ídolos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#renato">Renato Portaluppi</a></li>
+                  <li><a class="dropdown-item" href="#suarez">Luís Suárez</a></li>
+                  <li><a class="dropdown-item" href="#luan">Luan</a></li>
+                  <li><hr class="dropdown-divider" style="border-color:rgba(135,206,235,0.15);" /></li>
+                  <li><a class="dropdown-item" href="idolos.html">Ver Todos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre o Clube</a></li>
+              <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ===== HERO ===== -->
+      <section class="sobre-hero text-center" aria-label="Página de ídolos">
+        <div class="container">
+          <h1 class="section-title glow-text" style="font-size:clamp(2.5rem,6vw,3.8rem);">ÍDOLOS <span>IMORTAIS</span></h1>
+          <p style="max-width:520px; margin:1rem auto 0; color:#4a7a95; font-size:0.9rem; letter-spacing:1px; line-height:1.8;">
+            Aqueles que vestiram a camisa Tricolor e deixaram sua marca para sempre na história do Grêmio.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== LISTA DE ÍDOLOS ===== -->
+      <section class="idolos-section pb-5" aria-label="Detalhes dos ídolos">
+        <div class="container">
+
+          <!-- Renato Portaluppi -->
+          <article class="idol-detail-card fade-in-up" id="renato" aria-label="Renato Portaluppi">
+            <img src="https://i.superesportes.com.br/bwlBnSYZFH9sMEHm1siPmlprcF4=/1200x1200/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2023/06/11/3997515/renato-gaucho-elogiou-atuacao-do-gremio-contra-o-flamengo-na-derrota-por-3-a-0_1_31726.jpg"
+              alt="Renato Portaluppi" /
+              style="width: 200px; height: 200px;">
+            <div class="idol-detail-info w-75">
+              <span class="position-badge">Atacante / Treinador</span>
+              <h3>Renato Portaluppi</h3>
+              <p>
+                O eterno <strong style="color:var(--gremio-accent);">Renato Gaúcho</strong> é considerado o maior ídolo da história do Grêmio e pai do time vermelho de Porto Alegre.
+                Como jogador, foi protagonista dos principais títulos dos anos 80 e 90, incluindo a Copa Libertadores de 1983.
+                Após encerrar a carreira como atleta, voltou ao clube como técnico e escreveu mais uma página dourada:
+                conduziu o Tricolor ao título da <strong style="color:var(--gremio-accent);">Copa Libertadores 2017</strong>.
+              </p>
+              <p class="mt-3" style="color:#3a6a80; font-size:0.85rem;">
+                <strong style="color:var(--gremio-accent);">Títulos pelo Grêmio:</strong> Copa Libertadores (1983, 2017), Campeonato Brasileiro (1996), Gauchão (8)
+              </p>
+              <button class="btn-gremio btn mt-3" data-bs-toggle="modal" data-bs-target="#modalRenato">Ver Detalhes</button>
+            </div>
+          </article>
+
+          <!-- Luís Suárez -->
+          <article class="idol-detail-card fade-in-up" id="suarez" aria-label="Luís Suárez">
+            <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/gremio-suarez-gol-vasco-e1701645026299.jpg?w=1200&h=1200&crop=1"
+              alt="Luís Suárez" /
+              style="width: 200px; height: 200px;">
+            <div class="idol-detail-info">
+              <span class="position-badge">Centroavante</span>
+              <h3>Luís Suárez</h3>
+              <p>
+                O atacante uruguaio chegou ao Grêmio em 2023 e rapidamente conquistou a torcida Tricolor com sua garra,
+                qualidade técnica e amor pelo futebol. Mesmo no final da carreira, mostrou ao Brasil por que é considerado
+                um dos maiores centroavantes de todos os tempos.
+              </p>
+              <p class="mt-3" style="color:#3a6a80; font-size:0.85rem;">
+                <strong style="color:var(--gremio-accent);">Destaque:</strong> Artilheiro e um dos principais jogadores do Brasileirão 2023
+              </p>
+            </div>
+          </article>
+
+          <!-- Luan -->
+          <article class="idol-detail-card fade-in-up" id="luan" aria-label="Luan">
+            <img src="https://tntsports.cl/__export/1704122570821/sites/esporteinterativo/img/2024/01/01/luan_grxmio.jpg_1225696967.jpg"
+              alt="Luan" /
+              style="width: 200px; height: 200px;">
+            <div class="idol-detail-info">
+              <span class="position-badge">Meia-atacante</span>
+              <h3>Luan</h3>
+              <p>
+                Revelação das categorias de base do Grêmio, Luan se tornou um dos maiores ídolos recentes do clube.
+                Eleito o <strong style="color:var(--gremio-accent);">melhor jogador da Copa Libertadores 2017</strong>,
+                o meia-atacante gaúcho encantou o Brasil e o mundo com seus dribles, gols e liderança dentro de campo.
+              </p>
+              <p class="mt-3" style="color:#3a6a80; font-size:0.85rem;">
+                <strong style="color:var(--gremio-accent);">Prêmio:</strong> Melhor jogador da Copa Libertadores 2017
+              </p>
+            </div>
+          </article>
+
+          <!-- Geromel -->
+          <article class="idol-detail-card fade-in-up" id="geromel" aria-label="Pedro Geromel">
+            <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/geromel_gremio-e1727796185416.jpg?w=1200&h=1200&crop=1"
+              alt="Pedro Geromel" /
+              style="width: 200px; height: 200px;">
+            <div class="idol-detail-info">
+              <span class="position-badge">Zagueiro</span>
+              <h3>Pedro Geromel</h3>
+              <p>
+                Capitão e líder dentro e fora de campo, defendeu o Tricolor por mais de uma década com
+                solidez defensiva invejável. Peça fundamental nas conquistas recentes do clube,
+                incluindo a <strong style="color:var(--gremio-accent);">Copa Libertadores 2017</strong>.
+              </p>
+              <p class="mt-3" style="color:#3a6a80; font-size:0.85rem;">
+                <strong style="color:var(--gremio-accent);">Destaques:</strong> Copa Libertadores (2017), Recopa Sul-Americana (2018), Gauchão (7)
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== MODAL RENATO ===== -->
+    <div class="modal fade" id="modalRenato" tabindex="-1" aria-labelledby="modalRenatoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="modalRenatoLabel">Renato Portaluppi — O Imortal</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+          <div class="modal-body p-4">
+            <div class="d-flex gap-4 flex-wrap">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv94yGXKU8du4SWwHRFLwHZAqTZDqwR0BO6A&s"
+                alt="Renato Portaluppi" style="width:150px; height:180px; object-fit:cover; flex-shrink:0; border:1px solid var(--border-subtle);" />
+              <div>
+                <p style="color:#7a9fbb; line-height:1.9; font-size:0.92rem;">
+                  Nascido em Porto Alegre em 1962, Renato Portaluppi é o símbolo máximo do Grêmio.
+                  Como jogador, conquistou Libertadores, Brasileiro e inúmeros Gauchões. Como treinador,
+                  além do título da Libertadores 2017, foi responsável por resgatar a autoestima do clube em momentos difíceis.
+                </p>
+                <ul class="mt-3 list-unstyled" style="color:#4a7a95; font-size:0.88rem; line-height:2.2;">
+                  <li style="border-left:2px solid var(--gremio-accent); padding-left:0.8rem; margin-bottom:0.4rem;">Copa Libertadores 1983 e 1995 — como jogador</li>
+                  <li style="border-left:2px solid var(--gremio-accent); padding-left:0.8rem; margin-bottom:0.4rem;">Copa Libertadores 2017 — como treinador</li>
+                  <li style="border-left:2px solid var(--gremio-accent); padding-left:0.8rem; margin-bottom:0.4rem;">Campeonato Brasileiro 1996</li>
+                  <li style="border-left:2px solid var(--gremio-accent); padding-left:0.8rem;">Recopa Sul-Americana 2018</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary rounded-0"
+              style="color:#4a7a95; border-color:#1a3a4a;" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Gremio_logo.svg" alt="Grêmio" width="42" />
+              <h5 class="mb-0">Grêmio FBPA</h5>
+            </div>
+            <p>Site dedicado ao Maior time do Sul.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Navegação</h5>
+            <a href="index.html">Início</a>
+            <a href="idolos.html">Ídolos</a>
+            <a href="sobre.html">Sobre o Clube</a>
+            <a href="contato.html">Contato</a>
+          </div>
+          <div class="col-md-4">
+            <h5>Contato</h5>
+            <p>Morrinhos do Sul/RS<br>Brasil</p>
+            <a href="mailto:kaueschwanck7@gmail.com">kaueschwanck7@gmail.com</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Grêmio Fan Site &nbsp;·&nbsp; Projeto Bootstrap &nbsp;·&nbsp; Feito por Kauê Schwanck</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
